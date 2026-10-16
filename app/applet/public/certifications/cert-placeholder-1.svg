@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="certBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#EFF6FF" />
+    </linearGradient>
+    <linearGradient id="gold1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0081C9" />
+      <stop offset="100%" stop-color="#002B5B" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#certBg1)" rx="16" />
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="6,6" rx="12" />
+  <rect x="36" y="36" width="728" height="528" fill="none" stroke="#0081C9" stroke-width="1.5" opacity="0.3" rx="8" />
+  
+  <!-- Ribbon / Badge -->
+  <circle cx="400" cy="180" r="64" fill="url(#gold1)" />
+  <circle cx="400" cy="180" r="54" fill="none" stroke="#00D7D7" stroke-width="3" />
+  <path d="M400 145 L412 170 L438 174 L419 192 L424 218 L400 205 L376 218 L381 192 L362 174 L388 170 Z" fill="#00D7D7" />
+  <path d="M375 230 L360 300 L385 285 L400 305 L415 285 L440 300 L425 230" fill="#002B5B" opacity="0.8" />
+  
+  <!-- Text Elements -->
+  <text x="400" y="340" font-family="'Space Grotesk', system-ui, sans-serif" font-size="28" font-weight="bold" fill="#002B5B" text-anchor="middle">CERTIFICATE OF ACCREDITATION</text>
+  <text x="400" y="380" font-family="'Inter', system-ui, sans-serif" font-size="18" font-weight="600" fill="#0081C9" text-anchor="middle">ISO 13485:2016 / CDSCO IVD COMPLIANCE</text>
+  <text x="400" y="420" font-family="'Inter', system-ui, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">[ Placeholder 01: Official Accreditation Document ]</text>
+  <text x="400" y="450" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">Replace with your certificate image: /public/certifications/cert-1.jpg</text>
+  
+  <rect x="280" y="480" width="240" height="42" rx="8" fill="#002B5B" opacity="0.08" />
+  <text x="400" y="506" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="bold" fill="#002B5B" text-anchor="middle">NEXIVD LABORATORIES PVT. LTD.</text>
+</svg>

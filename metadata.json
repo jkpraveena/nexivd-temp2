@@ -1,0 +1,8 @@
+{
+  "name": "NexIVD Laboratories",
+  "description": "Professional healthcare and IVD diagnostics company providing manufacturing, regulatory consultancy, and laboratory support services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
